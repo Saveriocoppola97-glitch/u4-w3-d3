@@ -30,5 +30,8 @@ public class Application {
         } catch (NotFoundException ex) {
             System.out.println(ex.getMessage());
         }
+
+        Document aldoDocFromDb = dd.findById("27c61850-e499-43dc-9dcb-a0072287bfc6");
+        System.out.println(aldoDocFromDb.getOwner());
     }
 }

@@ -59,6 +59,9 @@ public class Document {
         return country;
     }
 
+    public User getOwner() {
+        return owner;
+    }
 
     @Override
     public String toString() {
